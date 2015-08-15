@@ -14,7 +14,7 @@ html {
 }
 .masthead-overlay {
     background-color: #000;
-    opacity: 0.4;
+    opacity: 0.8;
     position: absolute;
     top: 0; left: 0;
     bottom: 0; right: 0;
@@ -25,7 +25,7 @@ html {
     position: absolute;
     bottom: 0;
     right: 0;
-    color: #fff;
+    color: #ccc;
     opacity: 0.6;
     font-size: 12px;
     font-weight: 600;
@@ -65,22 +65,22 @@ h1 {
     position: absolute;
     width: 100%;
     font-weight: 700;
-    font-size: 110px;
+    font-size: 80px;
     text-align: center;
     height: 120px;
     line-height: 1;
     top: 0;
     bottom: 0;
     margin: auto;
-    color: #fff;
+    color: #ccc;
 }
 h1 span {
     display: block;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 0.43em;
     font-weight: 400;
     text-transform: uppercase;
-    padding-left: 7px;
+    padding-left: 15px;
     opacity: 0.5;
 }
 h2 {
