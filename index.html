@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CoverVid</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="covervid-gh-pages/assets/styles/normalize.css" />
+	<link rel="stylesheet" href="covervid-gh-pages/assets/styles/styles.css" />
+</head>
+
+<body>
+
+	<!-- Video Markup -->
+	<section class="masthead">
+		<video class="masthead-video" autoplay loop muted poster="video/foam.png">
+			<source src="video/foam.mp4" type="video/mp4">
+		</video>
+		<div class="masthead-overlay"></div>
+		<div class="masthead-arrow"></div>
+		<h1>Sam Dennon<span>developer</span></h1>
+			<span>Video: Foam on the South Yuba River</span>
+			<span>by Sam Dennon</span>
+		</a>
+	</section>
+
+
+	<!-- Load Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="styles/js/covervid.min.js"></script>
+	<script src="covervid-gh-pages/assets/scripts/scripts.js"></script>
+
+	<!-- Call CoverVid -->
+	<script type="text/javascript">
+		// If using jQuery
+			// $('.masthead-video').coverVid(1920, 1080);
+		// If not using jQuery (Native Javascript)
+			coverVid(document.querySelector('.masthead-video'), 1920, 1080);
+	</script>
+
+</body>
+
+</html>
